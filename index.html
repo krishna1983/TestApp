@@ -1,0 +1,53 @@
+<html>
+    <head>
+      <!-- JQuery Refrences 
+      <script src="Content/Jquery/jquery-1.11.3.js"></script>
+      <script src="Content/Jquery/jquery-ui.min.js"></script>
+      <script src="Content/Jquery/respond.min.js"></script>
+      <script src="Content/Jquery/modernizr-2.6.2.js"></script>-->
+    
+      <link rel="stylesheet" type="text/css" href="mincss.css"/>
+      <script src="all.js"></script>
+      <!-- AngularJs Refrences 
+    <script src="node_modules/angular/angular.js"></script>
+      <script src="Content/Common/angular/angular-sanitize.js"></script>
+     <!-- <script src="Content/Common/angular/angular-messages.js"></script>
+      <script src="Content/Common/angular/angular-route.js"></script>
+      <script src="Content/Common/angular-resource/angular-resource.js"></script> 
+      <script src="Content/Common/angular/angular-ui-route.min.js"></script>-->
+      
+    </head>
+<body class='bodyClass'  >
+	<!-- <h3>Hi Well Come to my site Halemani</h3> -->
+    
+    
+    <nav class="navbar navbar-inverse" role="navigation">
+    <div class="navbar-header">
+        <a class="navbar-brand" ui-sref="#">AngularUI Router</a>
+    </div>
+    <ul class="nav navbar-nav">
+        <li><a ui-sref="Home" style="cursor:pointer;" >Home</a></li>
+        <li><a ui-sref="About" style="cursor:pointer;">About</a></li>
+    </ul>
+        
+        <DIV style="font-family: Arial; font-size: 13px;">Dear AIG Direct Test Broker,<BR/>
+<p>It appears that the payment details for policy PM00000003 are set to expire soon Jun/2017.
+ Please advise your client to change their payment details to avoid dishonour fees and to ensure your client remains covered under this policy.
+Should you require any further assistance, please do not hesitate to contact AIG Direct QA or email to underwriter@aig.com.
+            </br></br>Thank you and kind regards</p>
+<p>AIG Direct QA</p></br>
+<p><table cellpadding='2' cellspacing='2' border='1px'><tr><th>Instalment No</th><th>Due Date</th><th>Paid Date</th><th >Amount Due</th><th>Status History</th></tr><tr><td align='center'> 1</td> <td align='center'> 10-Aug-2017</td><td align='center'> N/A</td> <td align='right'> $120.00</td><td align='center'> Waiting</td></tr><tr><td> 2</td> <td> 05-Sep-2017</td><td> N/A</td> <td> $100.00</td><td> Waiting</td></tr><tr><td> 3</td> <td> 05-Oct-2017</td><td> N/A</td> <td> $100.00</td><td> Waiting</td></tr><tr><td> 4</td> <td> 05-Nov-2017</td><td> N/A</td> <td> $100.00</td><td> Waiting</td></tr><tr><td> 5</td> <td> 05-Dec-2017</td><td> N/A</td> <td> $100.00</td><td> Fatal Dishonoured</td></tr><tr><td> 6</td> <td> 05-Jan-2018</td><td> 08-Jan-2018</td> <td> $100.00</td><td> Dishonoured</td></tr><tr><td> 6</td> <td> 05-Jan-2018</td><td> 05-Feb-2018</td> <td> $100.00</td><td> Dishonoured</td></tr><tr><td> 6</td> <td> 05-Jan-2018</td><td> N/A</td> <td> $100.00</td><td> Dishonoured</td></tr><tr><td> 8</td> <td> 05-Mar-2018</td><td> 05-Mar-2018</td> <td> $100.00</td><td> Successful</td></tr><tr><td> 9</td> <td> 05-Apr-2018</td><td> N/A</td> <td> $100.00</td><td> Waiting</td></tr><tr><td> 10</td> <td> 05-May-2018</td><td> N/A</td> <td> $100.00</td><td> Waiting</td></tr></table></p></DIV>
+        
+        
+        
+</nav>
+
+<div class="container">
+
+    <div ui-view></div>
+
+</div>
+    
+</body>
+</html>
+
